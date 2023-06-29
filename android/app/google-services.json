@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957060511196",
+    "project_id": "longboardapp-9e6ba",
+    "storage_bucket": "longboardapp-9e6ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957060511196:android:2243d02ca32c1086624b19",
+        "android_client_info": {
+          "package_name": "com.example.longboardapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957060511196-qt7ckdn8infmncd593jtl3e6f0spcgve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCMhbSJLct0GnvNNQWjFtQMdf_gM7CzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957060511196-qt7ckdn8infmncd593jtl3e6f0spcgve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
