@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:longboardapp/login/login.dart';
 import 'package:longboardapp/services/auth.dart';
-import 'package:longboardapp/shared/bottom_nav.dart';
 import 'package:longboardapp/styles/styles.dart';
 
 class HomeScreen extends StatelessWidget {

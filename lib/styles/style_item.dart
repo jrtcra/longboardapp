@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:longboardapp/services/models.dart';
+import 'package:longboardapp/shared/progress_bar.dart';
+import 'package:longboardapp/styles/drawer.dart';
 
 class StyleType extends StatelessWidget {
   final Style style;
@@ -42,7 +44,7 @@ class StyleType extends StatelessWidget {
                     softWrap: false,
                   ),
                 )),
-                //Flexible(child: StyleProgress)
+                Flexible(child: StyleProgress(style: style))
               ],
             ),
           ),
@@ -69,7 +71,8 @@ class StylesScreen extends StatelessWidget {
             style.title,
             style: 
               const TextStyle(height: 2, fontSize: 20, fontWeight: FontWeight.bold)
-          )
+          ),
+          TrickList(style: style)
         ],
       ),
     );

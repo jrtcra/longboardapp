@@ -3,7 +3,6 @@ import 'package:longboardapp/services/firestore.dart';
 import 'package:longboardapp/services/models.dart';
 import 'package:longboardapp/shared/error.dart';
 import 'package:longboardapp/shared/loading.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:longboardapp/shared/bottom_nav.dart';
 import 'package:longboardapp/styles/style_item.dart';
 
